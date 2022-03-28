@@ -1,6 +1,6 @@
 function game(trial) {
   const alea = Math.round(Math.random() * 10);
-  alert(alea);
+  // alert(alea);
 
   while (trial > 0) {
     let x = parseInt(prompt("Donner un nombre:  "));
