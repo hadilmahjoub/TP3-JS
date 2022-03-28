@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercice 3</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/c096537dfc.js" crossorigin="anonymous"></script> 
+  </head>
+  <body style="margin: 10px;">
+      <header style="text-align: center; font-size: 50px; padding: 20px;">My TODO List</header>
+    <div id="container" style="display: flex" class="card-header">
+      <div id="div-1" style="width: 50%">
+        <ul style="list-style-type: none; margin-left: -30px;">
+            
+        </ul>
+      </div>
+      <div id="div-2" style="width: 50%" class="card-header">
+        <form id="form">
+          <fieldset>
+            <label for="name">Name</label><br />
+            <input type="text" name="nameText" id="name" placeholder="Enter the todo name... " required=true class="form-control me-sm-2"/><br />
+            <label for="content">Content</label><br />
+            <input type="text" name="contentText" id="content" placeholder="Enter the todo content ..." required=true class="form-control me-sm-2"/>
+            <p></p>
+            <input type="submit" id="toto" value="Add TODO" class="btn btn-outline-secondary"></input>
+           
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    <script src="exercice3.js"></script>
+  </body>
+</html>
